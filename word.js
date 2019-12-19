@@ -28,6 +28,10 @@ class Word {
       this.complete = true;
     }
   }
+
+  reset() {
+    this.complete = false;
+  }
 }
 
 // let word = `apple`;
